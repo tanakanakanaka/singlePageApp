@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+<title>SPA Starter</title>
+<!-- スタイルシート --> ❶
+<link rel="stylesheet" href="css/spa.css" type="text/css"/>
+<link rel="stylesheet" href="css/spa.shell.css" type="text/css"/>
+<!-- サードパーティ javascript --> ❷
+<script src="js/jq/jquery-1.9.1.js" ></script>
+<script src="js/jq/jquery.uriAnchor-1.1.3.js"></script>
+<!-- 本書の javascript --> ❸
+<script src="js/spa.js" ></script>
+<script src="js/spa.shell.js"></script>
+<script>
+$(function () { spa.initModule( $('#spa') ); }); ❹
+</script>
+</head>
+<body>
+<div id="spa"></div>
+</body>
+</html>
